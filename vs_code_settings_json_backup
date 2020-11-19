@@ -1,0 +1,41 @@
+{
+    // "editor.codeActionsOnSave": null,
+    "files.autoSave": "afterDelay",
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/.log":true,
+        "**/log":true,
+        "**/*backup":true
+    },
+    "explorer.confirmDragAndDrop": false,
+    "git.enableSmartCommit": true,
+    "editor.minimap.enabled": false,
+    "git.autofetch": true,
+    "terraform.languageServer": {
+        "enabled": true,
+        "args": []
+    },
+    "terraform.indexing": {
+        "enabled": false,
+        "liveIndexing": false,
+        "delay": 500,
+        "exclude": [
+            ".terraform/**/*",
+            "**/.terraform/**/*"
+        ]
+    },
+    "workbench.startupEditor": "newUntitledFile",
+    "git.confirmSync": false,
+    "window.zoomLevel": 1,
+    "gitlens.views.repositories.location": "gitlens",
+    "gitlens.views.fileHistory.location": "gitlens",
+    "gitlens.views.lineHistory.location": "gitlens",
+    "gitlens.views.compare.location": "gitlens",
+    "gitlens.views.search.location": "gitlens",
+    "editor.tokenColorCustomizations": null,
+    "editor.codeActionsOnSave": null
+}
