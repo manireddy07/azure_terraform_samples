@@ -1,3 +1,8 @@
+command
+=======
+tf init/plan/apply/destory
+az login <use personal subscription>
+
 Software
 ========
 azure-cli-2.14.0
